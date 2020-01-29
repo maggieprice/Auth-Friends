@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color:gray;
+  height: 10rem;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
+
+h1, h2 {
+  padding: 3%;
+}
+
+.friends-container{
+  width: 80%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  border: 2px solid gray;
+  width: 16%;
+  margin:2%;
+  padding:2%;
+  background-image: linear-gradient(lightgray, mediumorchid);
+  height: 10rem;
+}
+
+p {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+input { 
+  width: 16%;
+  margin: 2%;
+  padding:2%;
+  background-color: mediumorchid;
+}
+
+button {
+  background-color: lightgray;
+  width: 20%;
+  margin:2%;
+  padding:2%;
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  width: 80%;
+  color: white;
+  margin:auto;
+}
+
+input::placeholder{
+  color: white;
+  font-size: 25px;
+}
